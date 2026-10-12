@@ -1,0 +1,31 @@
+## Daily Coding Practice
+
+This project is for practicing coding interview problems in Java, with the goal of becoming more comfortable solving them without assistance.
+
+### Getting the Daily Problem
+
+Open ChatGPT and ask:
+
+> I'm ready for today's coding problem.
+
+ChatGPT will provide an interview-style coding problem appropriate to my current level. Problems should gradually introduce new algorithms, data structures, and problem-solving techniques.
+
+### Practice Guidelines
+
+1. **Solve it myself first.** Spend 10–15 minutes thinking through the problem and implementing a solution before asking for help.
+2. **Ask for hints when needed.** ChatGPT should provide incremental hints rather than immediately revealing the solution.
+3. **Start with a working solution.** Don't worry about finding the optimal algorithm right away.
+4. **Analyze the solution.** Understand its time and space complexity, edge cases, and opportunities for improvement.
+5. **Write tests.** Use JUnit to verify the solution against the examples and additional test cases.
+6. **Review and learn.** Discuss the solution with ChatGPT as if explaining it in a technical interview.
+
+### Goals
+
+* Build confidence with common coding interview problems.
+* Improve algorithm and data structure skills.
+* Practice writing clean, correct Java code.
+* Learn to analyze time and space complexity.
+* Develop the ability to explain and defend technical decisions.
+* Learn when optimization is worthwhile and understand its trade-offs.
+
+**The goal is consistent practice, not speed or memorization.** One problem a day is enough to build confidence and make interview questions feel more familiar over time.
