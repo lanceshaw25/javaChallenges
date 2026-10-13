@@ -29,3 +29,22 @@ ChatGPT will provide an interview-style coding problem appropriate to my current
 * Learn when optimization is worthwhile and understand its trade-offs.
 
 **The goal is consistent practice, not speed or memorization.** One problem a day is enough to build confidence and make interview questions feel more familiar over time.
+
+### Setup
+
+This project uses IntelliJ IDEA to manage JUnit dependencies instead of Maven or Gradle.
+
+#### Adding JUnit 6
+
+If JUnit isn't configured yet, you can let IntelliJ help:
+
+1. Open a test class that has unresolved JUnit imports.
+2. Click the error on a JUnit import, such as `org.junit.jupiter.api.Test`.
+3. Use IntelliJ's suggested quick fix to add the missing JUnit library.
+4. If prompted, select JUnit 6 and let IntelliJ download and configure the library.
+
+Alternatively, configure it manually through **File → Project Structure → Modules → Dependencies**, then add the JUnit library.
+
+**Note:** JUnit libraries are downloaded locally and are not committed to Git. If you clone this project on another machine, you may need to configure the library again.
+
+TODO consider converting to a maven project to manage dependencies like this.
