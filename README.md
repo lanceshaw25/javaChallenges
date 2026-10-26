@@ -48,3 +48,18 @@ Alternatively, configure it manually through **File → Project Structure → Mo
 **Note:** JUnit libraries are downloaded locally and are not committed to Git. If you clone this project on another machine, you may need to configure the library again.
 
 TODO consider converting to a maven project to manage dependencies like this.
+
+### AI Coding Assistant Skill
+
+The `skills/java-challenges/SKILL.md` file contains instructions for AI assistants working on this project,
+including challenge progression, coaching style, testing conventions, and code review guidelines. If you use an
+AI coding assistant that supports Agent Skills, create a symlink to this skill in the appropriate discovery directory
+for that tool. For example, Claude Code uses `.claude/skills/` and Antigravity uses `.agents/skills/`. 
+
+Check each tool's documentation for its current conventions. 
+
+If symlinks are unsupported or the skill isn't discovered correctly, copy the `SKILL.md` file into the appropriate 
+location instead. 
+
+You can also paste the file into a ChatGPT conversation to restore the challenge coaching instructions if conversation
+context is lost.
